@@ -1,4 +1,4 @@
-package ru.netology;
+package domain;
 
 public class Post {
     private int postId;
