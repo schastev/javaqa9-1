@@ -1,7 +1,5 @@
 package domain.attachment;
 
-import domain.LikeWidget;
-
 public class MarketItem {
     private int itemId;
     private int posterId;
@@ -14,12 +12,12 @@ public class MarketItem {
     private String thumbPhoto;
     private int dateCreated;
     private int availability;
-    private Boolean isFavorite;
+    private boolean isFavorite;
     //optional
     private Photo[] photos;
-    private Boolean canComment;
-    private Boolean canRepost;
-    private LikeWidget likes; //this one probably shouldn't be in this package since it's used elsewhere
+    private boolean canComment;
+    private boolean canRepost;
+    private LikeWidget likes; //this one is different from the one used for posts
     private String url;
     private String buttonTitle;
 }

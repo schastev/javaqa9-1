@@ -6,7 +6,7 @@ public class Link {
     private String caption;
     private String description;
     private Photo photo;
-    private Boolean isExternal;
+    private boolean isExternal;
     private Product product;
     private Button button;//no documentation for this object
     private String previewPage;

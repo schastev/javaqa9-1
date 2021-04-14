@@ -1,6 +1,8 @@
 package domain;
 
 public class LikeWidget {
-    private Boolean userLikes;
     private int count;
+    private boolean userLikes;
+    private boolean canLike;
+    private boolean canPublish;
 }

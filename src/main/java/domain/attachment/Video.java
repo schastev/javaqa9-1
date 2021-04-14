@@ -16,8 +16,8 @@ public class Video {
     private int commentCount;
     private String player;
     private String accessKey;
-    private Boolean processing;
-    private Boolean live;
-    private Boolean upcoming;
-    private Boolean isFavorite;
+    private boolean processing;
+    private boolean live;
+    private boolean upcoming;
+    private boolean isFavorite;
 }

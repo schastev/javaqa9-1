@@ -11,5 +11,5 @@ public class Audio {
     private int albumId;
     private int genreId;
     private int date;
-    private Boolean noSearch;
+    private boolean noSearch;
 }

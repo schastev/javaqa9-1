@@ -1,5 +1,7 @@
 package domain;
 
+import domain.attachment.LikeWidget;
+
 public class Post {
     private int postId;
     private int postTime;
@@ -10,9 +12,12 @@ public class Post {
     private int replyPosterId;
     private Boolean friendsOnly;
     private CommentsWidget commentWidget;
+    private Copyright copyright;
     private LikeWidget likeWidget;
     private ShareWidget shareWidget;
+    private Views views;
     private String postType;
+    private PostSource postSource;
     private GeoLocation location;
     private int signerId;
     private Boolean canPin;

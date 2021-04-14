@@ -5,8 +5,8 @@ public class WikiPage {
     private int groupId;
     private int authorId;
     private String title;
-    private Boolean canEdit;
-    private Boolean canEditAccess;
+    private boolean canEdit;
+    private boolean canEditAccess;
     private int whoCanView;
     private int whoCanEdit;
     private int dateCreated;
