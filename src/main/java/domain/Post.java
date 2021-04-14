@@ -10,7 +10,7 @@ public class Post {
     private String postBody;
     private int replyPostId;
     private int replyPosterId;
-    private Boolean friendsOnly;
+    private boolean friendsOnly;
     private CommentsWidget commentWidget;
     private Copyright copyright;
     private LikeWidget likeWidget;
@@ -20,12 +20,12 @@ public class Post {
     private PostSource postSource;
     private GeoLocation location;
     private int signerId;
-    private Boolean canPin;
-    private Boolean canEdit;
-    private Boolean canDelete;
-    private Boolean isPinned;
-    private Boolean isAd;
-    private Boolean isFavorite;
+    private boolean canPin;
+    private boolean canEdit;
+    private boolean canDelete;
+    private boolean isPinned;
+    private boolean isAd;
+    private boolean isFavorite;
 
     public int getPostId() {
         return postId;
@@ -83,11 +83,11 @@ public class Post {
         this.replyPosterId = replyPosterId;
     }
 
-    public Boolean getFriendsOnly() {
+    public boolean getFriendsOnly() {
         return friendsOnly;
     }
 
-    public void setFriendsOnly(Boolean friendsOnly) {
+    public void setFriendsOnly(boolean friendsOnly) {
         this.friendsOnly = friendsOnly;
     }
 
@@ -139,51 +139,51 @@ public class Post {
         this.signerId = signerId;
     }
 
-    public Boolean getCanPin() {
+    public boolean getCanPin() {
         return canPin;
     }
 
-    public void setCanPin(Boolean canPin) {
+    public void setCanPin(boolean canPin) {
         this.canPin = canPin;
     }
 
-    public Boolean getCanEdit() {
+    public boolean getCanEdit() {
         return canEdit;
     }
 
-    public void setCanEdit(Boolean canEdit) {
+    public void setCanEdit(boolean canEdit) {
         this.canEdit = canEdit;
     }
 
-    public Boolean getCanDelete() {
+    public boolean getCanDelete() {
         return canDelete;
     }
 
-    public void setCanDelete(Boolean canDelete) {
+    public void setCanDelete(boolean canDelete) {
         this.canDelete = canDelete;
     }
 
-    public Boolean getPinned() {
+    public boolean getPinned() {
         return isPinned;
     }
 
-    public void setPinned(Boolean pinned) {
+    public void setPinned(boolean pinned) {
         isPinned = pinned;
     }
 
-    public Boolean getAd() {
+    public boolean getAd() {
         return isAd;
     }
 
-    public void setAd(Boolean ad) {
+    public void setAd(boolean ad) {
         isAd = ad;
     }
 
-    public Boolean getFavorite() {
+    public boolean getFavorite() {
         return isFavorite;
     }
 
-    public void setFavorite(Boolean favorite) {
+    public void setFavorite(boolean favorite) {
         isFavorite = favorite;
     }
 
